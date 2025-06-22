@@ -3,7 +3,6 @@
 A simple and secure password generator built with Streamlit.  
 Generate strong passwords with customizable options for length, letters, numbers, and symbols.
 
-!-- If you have a screenshot, add it here. Example: 
 !-- ![App Screenshot](app_screenshot.png) 
 
 ## Table of Contents
