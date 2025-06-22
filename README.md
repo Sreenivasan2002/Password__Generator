@@ -49,7 +49,7 @@ Open your terminal or command prompt and run the following commands:
 
  **Run the app:**
    ```
-  streamlit run password_generator.py
+  streamlit run streamlit_app.py
   ```
 
 ## Usage
