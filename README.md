@@ -1,19 +1,33 @@
-# 🎈 Blank app template
+# 🔐 Password Generator App
 
-A simple Streamlit app template for you to modify!
+A simple and secure password generator built with Streamlit.  
+Generate strong passwords with customizable options for length, letters, numbers, and symbols.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+!-- If you have a screenshot, add it here. Example: 
+!-- ![App Screenshot](app_screenshot.png) 
 
-### How to run it on your own machine
+## Table of Contents
+- [About the Project](#about-the-project)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Assumptions](#assumptions)
+- [Deployment](#deployment)
+- [License](#license)
 
-1. Install the requirements
+## About the Project
 
-   ```
-   $ pip install -r requirements.txt
-   ```
+This app allows users to generate secure, random passwords based on their preferences.  
+Users can select the desired password length and choose whether to include letters, numbers, and symbols.  
+The app is built using Python and Streamlit, providing a simple and interactive web interface.
 
-2. Run the app
+## Features
 
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+- Adjustable password length (6-32 characters)
+- Options to include/exclude letters, numbers, and symbols
+- Real-time password generation
+- User-friendly interface
+
+## Installation
+
+1. **Clone the repository:**
