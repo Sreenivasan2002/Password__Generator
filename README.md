@@ -10,9 +10,8 @@ Generate strong passwords with customizable options for length, letters, numbers
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Assumptions](#assumptions)
-- [Deployment](#deployment)
-- [License](#license)
+
+
 
 ## About the Project
 
@@ -43,12 +42,12 @@ Open your terminal or command prompt and run the following commands:
   source env_password/bin/activate
   ```
 
-4. **Install dependencies:**
+ **Install dependencies:**
    ```
   pip install -r requirements.txt
   ```
 
-6. **Run the app:**
+ **Run the app:**
    ```
   streamlit run password_generator.py
   ```
@@ -60,32 +59,9 @@ Open your terminal or command prompt and run the following commands:
 - Click **"Generate Password"** to instantly create a password.
 - Copy and use your secure password!
 
-## Assumptions
 
-- If no options are selected, the app defaults to using letters.
-- Passwords are generated using Python’s built-in `random` and `string` modules.
-- Intended for educational/demo purposes; for highly sensitive uses, consider using a cryptographically secure generator.
 
-## Deployment
 
-You can deploy this app for free using [Streamlit Community Cloud](https://streamlit.io/cloud):
 
-1. **Push your code to a public GitHub repository.**
-2. **Go to [Streamlit Cloud](https://streamlit.io/cloud) and sign in with your GitHub account.**
-3. **Click "New app" and select your repository and branch.**
-4. **Set `password_generator.py` as the main file.**
-5. **Click "Deploy".**
-6. **After a few moments, your app will be live at a public URL.**
-
-**Live Demo:**  
-[YOUR-DEPLOYED-APP-LINK-HERE]
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
-**Happy password generating!**
 
 
